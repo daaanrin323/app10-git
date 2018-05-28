@@ -59,12 +59,9 @@ $('#aaccuracy').html(position.coords.altitudeAccuracy);
 $('#headingg').html(position.coords.heading);
 $('#speed').html(position.coords.speed);
 $('#timestamp').html(position.coords.timestamp);
-};
+  };
 
   function onError(error){
     alert('code:' +error.code  +'\n'+'message:'+error.message+'\n');
   }
-}
-
-});
-	
+}	
