@@ -20,7 +20,7 @@ $('#watch').on('click', function(){
   function getPosition(){
   var options={
 	  enableHighAccuracy : true,
-	  maximunAge:3600000
+	  maximumAge:3600000
   }
   
   var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
@@ -43,7 +43,7 @@ $('#watch').on('click', function(){
 
   function watchPosition(){
   var options={
-	  maximunAge:3600000,
+	  maximumAge:3600000,
           timeout:3000,
 	  enableHighAccuracy : true,
   }
@@ -64,4 +64,6 @@ $('#timestamp').html(position.coords.timestamp);
   function onError(error){
     alert('code:' +error.code  +'\n'+'message:'+error.message+'\n');
   }
-}	
+}
+
+});	
