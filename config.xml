@@ -18,7 +18,7 @@ Rodrigo Daniel Bautista Pérez
 <!--Personaliza la aplicacion y plataforma -->
 <preference name="orientation"  value="default"/>
 <!-- <preference name="orientation"  value="portrait"/>
-<!-- <preference name="orientation"  value="landscape"/> -->
+<!<preference name="orientation"  value="landscape"/> -->
 <preference name="target-device"  value="universal"/>
 <preference name="fullscreen"  value="true"/>
 <preference name="android-installLocation"  value="auto"/>
@@ -36,6 +36,6 @@ Rodrigo Daniel Bautista Pérez
 
 <!-- Colocar icono app -->
 
-<icon src="res/android/mdpi.png"/>
+<icon src="res/android/mdpi2.png"/>
 
 </widget>
