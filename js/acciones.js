@@ -5,7 +5,7 @@ $(document).ready(function(e){
 	
 });
 
-function onDeviceready(){
+function onDeviceReady(){
 	
 $('#posicion').on('click', function(){
 	getPosition ();
@@ -41,7 +41,7 @@ $('#watch').on('click', function(){
   }
 }
 
-  function getPosition(){
+  function watchPosition(){
   var options={
 	  maximunAge:3600000,
           timeout:3000,
